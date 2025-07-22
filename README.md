@@ -1,25 +1,42 @@
 # Sentiment Analysis on Twitter Data <img src="https://img.icons8.com/color/24/000000/twitter--v1.png" width="35"/> 📊
 
-This project performs sentiment analysis on tweets using **Natural Language Processing (NLP)** techniques. Tweets are classified as **Positive**, **Negative**, or **Neutral** using **NLTK's VADER Sentiment Analyzer**.
+This project performs sentiment analysis on real-world tweets using **Natural Language Processing (NLP)** techniques. Tweets are classified as **Positive**, **Negative**, or **Neutral** using **NLTK's VADER Sentiment Analyzer**.
 
 ---
 
-## 📌 Features
+## 📌 Project Highlights
 
-- Preprocesses raw tweets (removes mentions, hashtags, URLs, stopwords, punctuation)
-- Uses VADER to classify sentiment
-- Visualizes sentiment distribution using Seaborn
-- Evaluates model accuracy using scikit-learn
+- Cleaned tweet data (removed mentions, hashtags, URLs, stopwords, etc.)
+- Applied **VADER** for rule-based sentiment scoring
+- Visualized sentiment distribution using **Seaborn**
+- Evaluated performance using **classification report** (Precision, Recall, F1-score)
+- Built entirely using **Google Colab** (easy to run)
+
+---
+
+## 📁 Files in This Repo
+
+- `Sentiment_Analysis_Twitter_Data.ipynb` – Main Colab notebook
+- `README.md` – Project overview
+- `assets/` — Folder for screenshots (see below)
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Python
-- NLTK
+- NLTK (VADER)
 - Pandas
 - Matplotlib & Seaborn
 - Scikit-learn
+
+---
+
+## ▶️ How to Run
+
+1. Open the `.ipynb` notebook in **Google Colab**
+2. Run all cells from top to bottom
+3. No local setup needed — all required libraries are auto-installed
 
 ---
 
@@ -32,10 +49,16 @@ This project performs sentiment analysis on tweets using **Natural Language Proc
 
 ---
 
-## 📁 Files in This Repo
+## 📸 Screenshots
 
-- `Sentiment_Analysis_Twitter_Data.ipynb` – Main Colab notebook
-- `README.md` – Project overview
+### 🔹 Sentiment Distribution Plot
+![Sentiment Plot](assets/sentiment_distribution_plot.png)
+
+### 🔹 Sample Predictions Table
+![Predictions Table](assets/sample_predictions_table.png)
+
+### 🔹 Model Evaluation Report
+![Classification Report](assets/classification_report_output.png)
 
 ---
 
@@ -47,7 +70,20 @@ This project performs sentiment analysis on tweets using **Natural Language Proc
 
 ---
 
+## 🤝 Internship Info
+
+This project was completed as part of the **AI Internship Program at Codec Technologies**.
+
+---
+
 ## 🚀 Author
 
-- 👤 Vidit Kumar
+- 👤 **Vidit Kumar**
 - 📅 July 2025
+- 🌐 [GitHub Profile](https://github.com/Vidit3859)
+
+---
+
+## 📎 Link to Project
+
+🔗 [View the notebook on GitHub](https://github.com/Vidit3859/twitter-sentiment-analysis)
